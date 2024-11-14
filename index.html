@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatística de Preferência de Cores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Estatística de Preferência de Cores</h1>
+        <div class="inputs-section">
+            <div class="input-row" data-color="Azul">
+                <label for="Azul">Azul:</label>
+                <input type="number" id="Azul" value="0" min="0">
+            </div>
+            <div class="input-row" data-color="Verde">
+                <label for="Verde">Verde:</label>
+                <input type="number" id="Verde" value="0" min="0">
+            </div>
+            <div class="input-row" data-color="Vermelho">
+                <label for="Vermelho">Vermelho:</label>
+                <input type="number" id="Vermelho" value="0" min="0">
+            </div>
+            <div class="input-row" data-color="Rosa">
+                <label for="Rosa">Rosa:</label>
+                <input type="number" id="Rosa" value="0" min="0">
+            </div>
+            <div class="input-row" data-color="Laranja">
+                <label for="Laranja">Laranja:</label>
+                <input type="number" id="Laranja" value="0" min="0">
+            </div>
+            <div class="input-row" data-color="Amarelo">
+                <label for="Amarelo">Amarelo:</label>
+                <input type="number" id="Amarelo" value="0" min="0">
+            </div>
+            <div class="input-row" data-color="Roxo">
+                <label for="Roxo">Roxo:</label>
+                <input type="number" id="Roxo" value="0" min="0">
+            </div>
+            <div class="input-row" data-color="Preto">
+                <label for="Preto">Preto:</label>
+                <input type="number" id="Preto" value="0" min="0">
+            </div>
+            <div class="input-row" data-color="Cinza">
+                <label for="Cinza">Cinza:</label>
+                <input type="number" id="Cinza" value="0" min="0">
+            </div>
+            <div class="input-row" data-color="Branco">
+                <label for="Branco">Branco:</label>
+                <input type="number" id="Branco" value="0" min="0">
+            </div>
+            <div class="input-row" data-color="Ciano">
+                <label for="Ciano">Ciano:</label>
+                <input type="number" id="Ciano" value="0" min="0">
+            </div>
+
+            <button onclick="calcularEstatisticas()">Calcular</button>
+        </div>
+        <div class="resultados">
+            <p id="total-pessoas">Total de pessoas pesquisadas: 0</p>
+            <div id="resultado-barras"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
